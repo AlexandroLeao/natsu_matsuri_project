@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Natsu-Matsuri Project</title>
+ 
+  <!-- LINKS -->
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <!-- VALORES TOTAIS -->
+
+  <main>
+    <div class="resume">
+      <div>
+        Entradas: R$
+        <span class="incomes">0.00</span>
+      </div>
+      <div>
+        Saídas: R$
+        <span class="expenses">0.00</span>
+      </div>
+      <div>
+        Total: R$
+        <span class="total">0.00</span>
+      </div>
+    </div>
+
+    <!-- CAIXAS DE OPÇÕES DE PRODUTOS -->    
+
+    <div class="newItem">
+      <div class="divDesc">
+        <label for="desc">Produto/Troco</label>
+        <select id="desc">
+          <option value="Valor-Inicial">(!) Valor Recebido Para Troco (!)</option>
+          <option value="Biscoito-Sorte">Biscoito da Sorte</option>
+          <option value="Bloco-Notas">Bloco de Notas</option>
+          <option value="B-Notas-Imã">Bloco de Notas (com Imã)</option>
+          <option value="Brinde">Brinde (Marcadores Pintado)</option>
+          <option value="Caixa-Presente">Caixinha com Presente</option>
+          <option value="Imã">Imã de Geladeira</option>
+          <option value="Marcador">Marcador de Página</option>
+          <option value="Porta-Lápis(G)">Porta Lápis (Grande)</option>
+          <option value="Porta-Treco(M)">Porta Treco (Médio)</option>
+          <option value="Quadro">Quadro (Pintura Asiática)</option>
+          <option value="Coelho(1)">Coelho (Cupuaçu)</option>
+          <option value="Coelho(2)">Coelho (Opção 2)</option>
+          <option value="Pendulo">Pendulos</option>
+          <option value="Troco">TROCO</option>
+        </select>
+      </div>
+
+     <!-- OPÇÂO DE QUANTIDADE DE PRODUTOS -->      
+
+      <div class="divQuantity">
+        <label for="quantity">Quantidade</label>
+        <select id="quantity">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      
+      <!-- CAIXA PARA VALOR DE PAGAMENTO -->
+
+      <div class="divAmount">
+        <label for="amount">Valor</label>
+        <input type="number" id="amount" />
+      </div>
+
+      <!-- BOTÃO DE OPÇÕES (ENTRADA OU SAÍDA) -->
+
+      <div class="divType">
+        <label for="type">Tipo</label>
+        <select id="type">
+          <option>Entrada</option>
+          <option>Saída</option>
+        </select>
+
+        <!-- BOTÃO DE INCLUIR -->
+
+      </div>
+      <button id="btnNew">Incluir</button>
+    </div>
+
+        <!-- TABELA COM OS PRODUTOS, VALORES, QUANTIDADE E TIPO (ENTRADA OU SAÍDA) -->
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th class="columnQuantity">Quantidade</th>
+            <th class="columnAmount">Valor</th>
+            <th class="columnType">Tipo</th>
+            <th class="columnAction"></th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    
+    
+
+  <!-- JAVASCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
