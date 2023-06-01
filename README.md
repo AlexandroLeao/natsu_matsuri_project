@@ -22,10 +22,6 @@ To run the project locally, follow these steps:
 
 Contributions to this project are welcome. You can submit bug reports or feature requests by creating an issue on the project repository.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - The project uses the [Boxicons](https://boxicons.com/) library for the icons.
