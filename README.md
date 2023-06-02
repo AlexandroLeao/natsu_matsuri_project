@@ -1,5 +1,6 @@
-# natsu_matsuri_project
- The "Natsu-Matsuri" project is a simple and basic application for financial transaction control, offering a user-friendly and intuitive interface for users to register and view transactions in an organized manner. This project is a web application developed using HTML, CSS, and JavaScript. It allows users to track their income and expenses by adding items and their corresponding values and types (income or expense) to a table.
+# Natsu Matsuri Prototype Project
+
+ The Natsu-Matsuri Prototype project is a simple and basic application for financial transaction control, offering a user-friendly and intuitive interface for users to register and view transactions in an organized manner. This project is a web application developed using HTML, CSS, and JavaScript. It allows users to track their income and expenses by adding items and their corresponding values and types (income or expense) to a table.
  
 ## Step-by-Step Development
 
